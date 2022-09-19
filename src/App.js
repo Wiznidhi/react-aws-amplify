@@ -5,9 +5,7 @@ import Signup from './components/Signup';
 const App = () => {
   return (
     <div>
-      <header>
-      <img src={logo} alt="this is logo" />
-      </header>
+      <img src={logo} alt="this is logo" height = "100" width = "180"/>
       <Signup/>
     </div>
   );
